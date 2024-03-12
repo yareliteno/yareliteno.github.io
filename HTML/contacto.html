@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../CSS/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#form1 {
+    margin: 0 auto;
+    width: 50%;
+    padding: 50px;
+    background-color: #ED6A5A;
+}
+#form1 #email {
+    width: 100%;
+}
+#form1 #Mensaje {
+    width: 100%;
+    height: 100px;
+}
+#form1 #submit {
+    margin: 20px auto;
+    width: 30%;
+    display: block;
+    background-color: #36C9C6;
+    color: #F4F1BB;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#form1 label {
+    font-weight: bold;
+}
+#form1 input[type=text] {
+    width: 100%;
+    padding: 5px;
+}
+#form1 .formato_input {
+    padding: 5px;
+    background-color: #F8FBE9;
+    color: #ED6A5A;
+}
+section {
+    background-color: transparent;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Contacto</h1>
+&nbsp;</header>
+<nav>
+  <ul>
+    <li><a href="../index.html" target="_self">Inicio</a></li>
+    <li><a href="galeria.html" target="_self">Galeria</a></li>
+    <li><a href="../HTML/practicas.html" target="_self">Practicas</a></li>
+    <li><a href="contacto.html" target="_self">Contacto</a></li>
+  </ul>
+</nav>
+<main>
+<section>
+  <form id="form1" name="form1" method="post">
+    <label for="nombre">Nombre:</label>
+    <input name="nombre" type="text" class="formato_input" id="nombre" size="10" maxlength="20">
+    
+    <label for="email">Email:</label>
+    <input name="email" type="email" class="formato_input" id="email">
+	  
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="Mensaje" maxlength="100" class="formato_input" id="Mensaje">
+
+    </textarea>
+    <input name="submit" type="submit" id="submit" formaction="../index.html" formmethod="GET" value="Enviar">
+  </form>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Yareli Tenocelotl Irianda</h6>
+&nbsp;</footer>
+</body>
+</html>

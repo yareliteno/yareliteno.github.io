@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+*{
+  margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F4F1BB;
+	
+	 font-family: "Urbanist", sans-serif;
+}
+header,nav,main,footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    color: #F4f1bb;
+    
+}
+header{
+    background-color: #eD6a5a;
+    height: 50px;
+    text-align: center;
+}
+nav{
+    background-color: #36c9c6;
+    height: px;
+    
+}
+main{
+    background-color: #B0CFD0;
+}
+footer{
+    background-color: #eD6a5a;
+    text-align: center;
+	font-size: 24px
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #eD6a5a;
+    margin: 30px  auto;
+    padding: 30px
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+table, table td, table th{
+	border: 3px solid #36c9c6;
+}
+table th{
+	background-color: #36c9c6;
+	color: #F4f1bb;
+	height: 50px;
+}
+table td{
+	background-color: #e6ebe0;
+	color: #eD6a5a;
+	padding: 10px;
+}
+img{
+    width: 150px;
+    height: auto;
+}
+
+
+a{
+                color: #9bc1bc;
+            }
+           a:link{
+                color: #F4f1bb;
+            }
+            a:visited{
+                color: #eD6a5a;
+            }
+            a:hover{
+                text-decoration: none;
+                color: #F4f1bb;
+                text-decoration: underline;
+            }
+main  nav{
+                width: 500px;
+                text-align: center;
+                background-color: transparent;
+            }
+nav a{
+                text-decoration: none;
+                padding: 10px;
+                margin: 0px 10px;
+                border: 2px solid darkblue;
+                border-radius: 30px;
+            }
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    background-color: transparent;
+    border: none;
+}
+
+nav ul li a:hover{
+    background-color: transparent;
+    
+}
+.foto {
+    width: 50
+'%;
+}
+.tabla_zebra {
+
+}
+.tabla_zebra tbody tr:nth-child(even) {
+    background-color: #E6EBE0;
+}
+.tabla_zebra tbody tr:nth-child(odd) {
+    background-color: #F4F1BB;
+}
+
+
+
+.tabla_zebra td {
+    background-color: transparent;
+}
+.tabla_zebra thead th {
+    background-color: #36C9C6;
+}
+
+.table_hover {
+    background-color: #E6EBE0;
+    width: 100%;
+    padding-top: 20px;
+
+}
+.table_hover tbody tr:hover {
+    background-color: #F4F1BB;
+}
+
+.table_hover tbody td {
+    background-color: transparent;
+}
+
+
+thead tr th {
+}
+.section_galeria {
+    background-color: transparent;
+}
+main section form {
+}
+#submit {
+
+}
+
+.section form label {
+    width: 0%;
+}
+main section h2 {
+    margin: 20px 0px;
+}
+main section p {
+    margin: 20px 0px;
+}
+.section_practicas{
+    width: 30%;
+    height: 50px;
+    margin: 30px;
+    display: inline-block;
+	
+}
+.main_center{
+    text-align: center;	
+}
+h1{
+	font-family: "Sofia", cursive;
+	font-family: 400;
+}
+
+}
